@@ -1,0 +1,172 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Django Boilerplate</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="{% static "core/libaries/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom fonts for this template -->
+    <link href="{% static "core/libraries/font-awesome/css/font-awesome.min.css" %}" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+
+    <!-- Custom styles for this template -->
+    <link href="{% static "core/css/creative.min.css" %}" rel="stylesheet">
+    <link href="{% static "core/css/homepage.css" %}" rel="stylesheet">
+    <link href="{% static "core/css/particles.min.css" %}" rel="stylesheet">
+
+
+  </head>
+
+  <body id="page-top">
+<div id="particles-js"></div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">The Django Boilerplate</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex">
+
+      <div class="container my-auto">
+        <div class="content">
+            <div class="row">
+              <div class="col-lg-10 mx-auto">
+                <h1 class="text-uppercase">
+                  <strong>A template for quickly starting a Django application</strong>
+                </h1>
+                <hr>
+              </div>
+              <div class="col-lg-8 mx-auto">
+                <p class="text-faded mb-5">Because I was tired of doing the same process over and over.</p>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">About</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">
+                This template has basic authentication set up, as well as a landing page. For more information, check out the README.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet malesuada nisl. Integer pharetra placerat nibh, et congue neque feugiat vitae. In hac habitasse platea dictumst. Quisque lacinia, metus id rutrum ornare, libero augue varius justo, eget blandit purus lorem ac ante. Morbi viverra est vitae quam varius, quis porttitor sem sagittis. Suspendisse a ultricies ligula, a tempus quam. Mauris ut tortor eget elit feugiat finibus eu eget nulla. Nunc ultrices at quam at commodo.
+
+                <p class="text-faded">Maecenas in sem ut tellus venenatis luctus. Cras at vehicula urna. Donec aliquam eros eget augue feugiat dictum. Integer in lacus in ante feugiat scelerisque. Sed tincidunt dictum lorem, id rhoncus magna aliquam sit amet. Duis vestibulum convallis velit tincidunt scelerisque. Mauris sed sodales eros.</p>
+
+
+                <p class="text-faded">Maecenas in sem ut tellus venenatis luctus. Cras at vehicula urna. Donec aliquam eros eget augue feugiat dictum. Integer in lacus in ante feugiat scelerisque. Sed tincidunt dictum lorem, id rhoncus magna aliquam sit amet. Duis vestibulum convallis velit tincidunt scelerisque. Mauris sed sodales eros.</p>
+
+
+
+            </p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#features">Features</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Features</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Landing Page</h3>
+              <p class="text mb-0">A good looking landing page to make things easy.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Ready to Ship</h3>
+              <p class="text mb-0">All the basics.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Up to Date</h3>
+              <p class="text mb-0">Django 2 ready.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Made with Love</h3>
+              <p class="text mb-0">After all, I'm using it as well!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Let's get started.</h2>
+        <a class="btn btn-light btn-xl sr-button" href="#">Explore</a>
+      </div>
+    </section>
+
+
+    <!-- Particles -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{% static "core/libraries/jquery-easing/jquery.easing.min.js" %}"></script>
+    <script src="{% static "core/libraries/scrollreveal/scrollreveal.min.js" %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{% static "core/js/creative.min.js" %}"></script>
+    <script src="{% static "core/js/particles.min.js" %}"></script>
+
+  </body>
+
+</html>
